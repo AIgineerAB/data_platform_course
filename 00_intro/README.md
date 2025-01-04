@@ -1,10 +1,8 @@
-# Introduction to COURSE_NAME
+# Introduction to data platform course
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/a4C5KIqj55M" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_platform/intro.png?raw=true" alt="data platform introduction" width="600">
 </a>
-
-
 
 ## Other videos 📹
 
