@@ -53,24 +53,91 @@ In order to maintain data quality, consistency and reliability, a system needs t
 
 Note that this list of dictionary is also a JSON array of objects.
 
-&nbsp; d) Do schema validation on the JSON array in c) 
+&nbsp; d) Do schema validation on the JSON array in c)
 
-&nbsp; e) Make a function for schema validation and try input the two examples and see if you get correct answer. Also make other examples and test your function. 
+&nbsp; e) Make a function for schema validation and try input the two examples and see if you get correct answer. Also make other examples and test your function.
+
+## 2. Data quality check
+
+Create a function that checks a list that it contains exactly ten elements, and none of them contains None. If they contain None, print out an error message that says that it is invalid and print out what a valid format should be. 
+
+## 3. Extract data from logs
+
+In data engineering, log files and log messages are very common. Sometimes you need to parse them to find valuable information, for example for debugging reasons. 
+
+Read in `network.log` and extract source IP, destination IP, protocol and data size.
+
+Expected output:
+```yaml
+Source: 10.0.0.1 | Destination: 10.0.0.2 | Protocol: TCP | Bytes: 1024
+Source: 10.0.0.2 | Destination: 10.0.0.3 | Protocol: UDP | Bytes: 2048
+Source: 10.0.0.3 | Destination: 10.0.0.1 | Protocol: TCP | Bytes: 512
+
+Data Transfer Summary:
+TCP: 1536 bytes
+UDP: 2048 bytes
+```
+
+Hint: you could probably find some complex regexp pattern, but a more strategic approach is to check the formatting and make a strategy based on that. 
+
+## 4. Aggregating json data
+
+Here we will do group by and sum aggregation without using pandas or sql, but plain python to practice the underlying mechanics behind the language.
+
+&nbsp; a) Read in the file paid.json inside of the data folder. Hint: use `load()` function from the `json` library.
+
+&nbsp; b) Now group each name and sum over the total payment. Hint: use `defaultdict(int)` from collections library
+
+&nbsp; c) Output the result into a new json file called `payment_sum.json`.
 
 
-## 3. Aggregating json data 
 
+## 5. Simulating data streams
 
+In this task we will simulate data streams and process it. 
 
-## 2. Theory questions
+```py
+simualated_stream = ["record1", "record2", "record3", "record4", "STOP", "record5"]
+```
 
-DESCRIPTION
+Based on this simulated stream, print out the result `processed record` if the record is not the STOP signal. Print out with 1 second delay between each processed record.
 
-&nbsp; a)
+Output for this example is:
 
-&nbsp; b)
+```
+Starting data stream srocessing...
 
-&nbsp; c)
+Processed: record1
+Processed: record2
+Processed: record3
+Processed: record4
+STOP signal encountered. Ending stream processing.
+
+Data stream processing completed. Have a nice day
+```
+
+## 6. Theory questions 
+
+&nbsp; a) What are the fundamental data types in Python? 
+
+&nbsp; b) What is the difference between a list and a tuple in Python?
+
+&nbsp; c) How does Python handle mutable and immutable data types?
+
+&nbsp; d) Explain the difference between for and while loops and when to use one or the other.
+
+&nbsp; e) How do you read a file line-by-line in Python?
+
+&nbsp; f) What is a context manager and why would you need to use it?
+
+&nbsp; g) Explain the difference between try, except, else, and finally.
+
+&nbsp; h) What is the difference between ETL and ELT?
+
+&nbsp; i) Differentiate between batch processing and streaming processing.
+
+&nbsp; j) What is a data platform?
+
 
 ## Glossary
 
