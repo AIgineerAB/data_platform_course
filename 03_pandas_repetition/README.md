@@ -21,6 +21,20 @@ This section aims for you to repeat the fundamentals within pandas and data proc
 </a>
 
 
+## Setup
+
+If you don't have the packages installed in your virtual environment, use uv to install them for example 
+
+```py
+uv pip install pandas ipykernel # more packages ...
+```
+
+Remember that you need to activate the environment first 
+
+```bash
+source .venv/bin/activate # mac/linux
+source .venv/Scripts/activate # windows
+```
 
 ## Read more
 
