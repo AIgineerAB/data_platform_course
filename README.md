@@ -7,8 +7,8 @@ For this you will be using the following tools:
 - python
 <!-- - pyspark
 - spark structured streaming -->
-- duckdb
 - docker
+- kafka
 - bash
 - git
 - github
