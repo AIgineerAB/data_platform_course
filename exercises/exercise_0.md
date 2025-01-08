@@ -59,15 +59,16 @@ Note that this list of dictionary is also a JSON array of objects.
 
 ## 2. Data quality check
 
-Create a function that checks a list that it contains exactly ten elements, and none of them contains None. If they contain None, print out an error message that says that it is invalid and print out what a valid format should be. 
+Create a function that checks a list that it contains exactly ten elements, and none of them contains None. If they contain None, print out an error message that says that it is invalid and print out what a valid format should be.
 
 ## 3. Extract data from logs
 
-In data engineering, log files and log messages are very common. Sometimes you need to parse them to find valuable information, for example for debugging reasons. 
+In data engineering, log files and log messages are very common. Sometimes you need to parse them to find valuable information, for example for debugging reasons.
 
 Read in `network.log` and extract source IP, destination IP, protocol and data size.
 
 Expected output:
+
 ```yaml
 Source: 10.0.0.1 | Destination: 10.0.0.2 | Protocol: TCP | Bytes: 1024
 Source: 10.0.0.2 | Destination: 10.0.0.3 | Protocol: UDP | Bytes: 2048
@@ -78,7 +79,7 @@ TCP: 1536 bytes
 UDP: 2048 bytes
 ```
 
-Hint: you could probably find some complex regexp pattern, but a more strategic approach is to check the formatting and make a strategy based on that. 
+Hint: you could probably find some complex regexp pattern, but a more strategic approach is to check the formatting and make a strategy based on that.
 
 ## 4. Aggregating json data
 
@@ -90,11 +91,9 @@ Here we will do group by and sum aggregation without using pandas or sql, but pl
 
 &nbsp; c) Output the result into a new json file called `payment_sum.json`.
 
-
-
 ## 5. Simulating data streams
 
-In this task we will simulate data streams and process it. 
+In this task we will simulate data streams and process it.
 
 ```py
 simualated_stream = ["record1", "record2", "record3", "record4", "STOP", "record5"]
@@ -116,9 +115,9 @@ STOP signal encountered. Ending stream processing.
 Data stream processing completed. Have a nice day
 ```
 
-## 6. Theory questions 
+## 6. Theory questions
 
-&nbsp; a) What are the fundamental data types in Python? 
+&nbsp; a) What are the fundamental data types in Python?
 
 &nbsp; b) What is the difference between a list and a tuple in Python?
 
@@ -138,20 +137,34 @@ Data stream processing completed. Have a nice day
 
 &nbsp; j) What is a data platform?
 
-
 ## Glossary
 
 Fill in this table either by copying this into your own markdown file or copy it into a spreadsheet if you feel that is easier to work with.
 
-| terminology | explanation |
-| ----------- | ----------- |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
+| terminology          | explanation |
+| -------------------- | ----------- |
+| assign               |             |
+| logical error        |             |
+| handling error       |             |
+| indexing             |             |
+| slicing              |             |
+| iterable             |             |
+| iterate over         |             |
+| list comprehension   |             |
+| collections          |             |
+| tuples               |             |
+| \_\_repr\_\_         |             |
+| dunder methods       |             |
+| pythonic             |             |
+| idiomatic            |             |
+| DRY                  |             |
+| spaghetti code       |             |
+| keyword arguments    |             |
+| positional arguments |             |
+| \*args               |             |
+| \*\*kwargs           |             |
+| unpacking list       |             |
+| return statement     |             |
+| ternary operator     |             |
+| json                 |             |
+|                      |             |
