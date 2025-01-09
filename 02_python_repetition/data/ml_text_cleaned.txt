@@ -1,0 +1,6 @@
+Supervised learning is a part of machine learning, where algorithms learn from a training data set.
+These algorithms try to make sense of the data by matching inputs to corresponding outputs.
+In supervised learning, each data point in the training set is labeled with the correct output, which allows the algorithm to learn from the examples.
+This allows the algorithm to make predictions on unseen data, based on its training.
+It is used for tasks such as classification, where the goal is to assign a label to input data, and regression, where the goal is to predict a continuous output variable.
+Supervised learning has many applications in areas like image recognition, natural language processing, and financial forecasting.
