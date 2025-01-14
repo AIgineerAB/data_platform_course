@@ -31,11 +31,9 @@ The dataset is called [betyg_o_prov_riksnivå.xlsx and found here](https://githu
 
 &nbsp; a) Draw a line chart for proportion of students that are missing approved grade for one or more subjects for the years 18-23.
 
-&nbsp; b) Validate that the id is integer, name is string, is_active is boolean and age is integer. It should return true if valid and false if not valid.
+&nbsp; b) Examine other variable(s) of your choice and check how they affect the students grade. For example you could choose "föräldrarnas utbildningsbakgrund", parents grades.
 
-&nbsp; c) Examine other variable(s) of your choice and check how they affect the students grade. For example you could choose "föräldrarnas utbildningsbakgrund", parents grades.
-
-&nbsp; d) Feel free to do more EDA on this dataset.
+&nbsp; c) Feel free to do more EDA on this dataset.
 
 ## 2. Olympic games data
 
