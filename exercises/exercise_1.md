@@ -1,4 +1,4 @@
-# Exercise 0 - Pandas repetition
+# Exercise 1 - Pandas repetition
 
 These exercises aim for you to train in fundamental pandas.
 
