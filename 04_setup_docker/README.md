@@ -56,7 +56,9 @@ wsl --install
 
 
 
+## Mac
 
+[Download and install docker desktop for mac](https://docs.docker.com/desktop/setup/install/mac-install/) from here and it will probably work directly.
 
 
 
