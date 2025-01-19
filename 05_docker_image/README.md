@@ -47,6 +47,9 @@ RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```
 
+Now we should have an actual python file, so copy the code from app.py in this folder. Then we should also have a requirements so that the container can install pandas, so create requirements.txt and add pandas to it.
+
+
 Building time
 
 ```bash
