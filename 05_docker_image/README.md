@@ -86,7 +86,7 @@ Cool, that we ran the container, but let's dive deeper to find out what the cont
 
 ```bash
 # -it flag for interactive mode, /bin/bash opens up a bash shell inside the container
-docker run -it first-app /bin/bash
+docker run -it first-python-app /bin/bash
 ```
 
 Imagine you have come into a new world that was isolated from your current world, but you could before just see the surface. Now you have found the key to unlock its secrets, so dig in and explore
