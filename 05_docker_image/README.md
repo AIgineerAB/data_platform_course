@@ -6,13 +6,13 @@
 <img src="https://github.com/kokchun/assets/blob/main/data_platform/docker_intro_theory.png?raw=true" alt="docker theory" width="600">
 </a>
 
+
 **part 2 coding**
 
-TODO: video
 
-<!-- <a href="" target="_blank">
-<img src="https://github.com/kokchun/assets/blob/main/data_platform/dockerfile_code.png?raw=true" alt="docker image" width="600">
-</a> -->
+<a href="https://youtu.be/lAckpoLox5g" target="_blank">
+<img src="https://github.com/kokchun/assets/blob/main/data_platform/dockerfile_code.png?raw=true" alt="docker image coding" width="600">
+</a>
 
 
 In this lecture you'll learn the basics of Docker and containerize a Python application. We will work extensively with command line tools (CLI) so make sure to learn the commands.
