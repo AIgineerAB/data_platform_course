@@ -9,3 +9,6 @@
 ## Other videos 📹
 
 ## Read more 👓
+
+- [kafka fundamentals - conduktor kafkacademy](https://learn.conduktor.io/kafka/kafka-fundamentals/)
+- 
