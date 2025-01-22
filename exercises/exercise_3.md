@@ -23,27 +23,27 @@ In this task you will try to install Kafka locally on your computer without usin
 
 Fill in this table either by copying this into your own markdown file or copy it into a spreadsheet if you feel that is easier to work with.
 
-| terminology   | explanation |
-| ------------- | ----------- |
-| kafka         |             |
-| zookeeper     |             |
-| KRaft mode    |             |
-| producer      |             |
-| consumer      |             |
-| topic         |             |
-| kafka node    |             |
-| kafka cluster |             |
-| sink          |             |
-| broker        |             |
-| source system |             |
-| partition     |             |
-|               |             |
-|               |             |
-|               |             |
-|               |             |
-|               |             |
-|               |             |
-|               |             |
-|               |             |
-|               |             |
-|               |             |
+| terminology     | explanation |
+| --------------- | ----------- |
+| kafka           |             |
+| zookeeper       |             |
+| KRaft mode      |             |
+| producer        |             |
+| consumer        |             |
+| topic           |             |
+| kafka node      |             |
+| kafka cluster   |             |
+| sink            |             |
+| broker          |             |
+| source system   |             |
+| partition       |             |
+| serialization   |             |
+| deserialization |             |
+| pull model      |             |
+| push model      |             |
+|                 |             |
+|                 |             |
+|                 |             |
+|                 |             |
+|                 |             |
+|                 |             |
