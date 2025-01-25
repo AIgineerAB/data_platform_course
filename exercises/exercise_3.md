@@ -41,9 +41,9 @@ Fill in this table either by copying this into your own markdown file or copy it
 | deserialization |             |
 | pull model      |             |
 | push model      |             |
-|                 |             |
-|                 |             |
-|                 |             |
-|                 |             |
-|                 |             |
+| client          |             |
+| advertise       |             |
+| ports mapping   |             |
+| detached mode   |             |
+| docker exec -it |             |
 |                 |             |
