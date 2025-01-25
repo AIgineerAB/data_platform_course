@@ -10,10 +10,11 @@ We will setup kafka with docker compose. So start with pasting in the code from 
 docker compose up -d
 ```
 
+The docker-compose.yml file comes from [quix documentation for running kafka locally](https://quix.io/docs/quix-streams/tutorials/index.html#running-kafka-locally)
+
 ## Other videos 📹
 
-- [03. Kafka with KRaft setup using Docker Compose | Kafka tutorial for beginners - Nanthakumaran Senthilnathan (2023)](https://www.youtube.com/watch?v=aTl2iSCynVc&t=130s)
+
 
 ## Read more 👓
 
-- [kafka docker-setup - nanthakumaran github](https://github.com/nanthakumaran-s/Learn-Kafka/blob/main/docker-setup.md)
