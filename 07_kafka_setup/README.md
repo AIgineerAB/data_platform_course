@@ -1,8 +1,8 @@
 # Kafka setup
 
-<!-- <a href="https://youtu.be/3R9w1hbh1PY" target="_blank">
-<img src="https://github.com/kokchun/assets/blob/main/data_platform/docker_compose.png?raw=true" alt="docker compose code" width="600">
-</a> -->
+<a href="https://youtu.be/pqRebLFbmwI" target="_blank">
+<img src="https://github.com/kokchun/assets/blob/main/data_platform/setup_kafka.png?raw=true" alt="set up kafka" width="600">
+</a>
 
 ## Docker compose
 
