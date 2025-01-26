@@ -15,9 +15,22 @@ In this task you will try to install Kafka locally on your computer without usin
 
 ## 1. TBD
 
-## 2. Theory questions (TBD)
+## 2. Theory questions
 
-&nbsp; a) TBD
+&nbsp; a) What is Apache Kafka, and how does it work?
+
+&nbsp; b) What is a Kafka topic?
+
+&nbsp; c) How does the Kafka broker, cluster and partitions relate to each other?
+
+&nbsp; d) What are Kafka producers and consumers and the publish-subscribe model?
+
+&nbsp; e) How does Kafka guarantee message ordering?
+
+&nbsp; f) What is key-based partitioning in Kafka?
+
+&nbsp; g) How do you setup Kafka locally? 
+
 
 ## Glossary
 
