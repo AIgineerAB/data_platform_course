@@ -13,6 +13,27 @@
 </a>
 
 
+## Consume data from topic in broker 
+
+To consume the data in the broker, start with opening up the container interactively with 
+
+```bash
+docker exec -it broker /bin/bash
+```
+
+Then run 
+
+```bash
+kafka-console-consumer --bootstrap-server localhost:9092 --topic <topic_name> --from-beginning 
+```
+
+To read messages with keys and timestamp
+
+```bash
+kafka-console-consumer --bootstrap-server localhost:9092 --topic jokes --from-beginning --property print.key=true --property print.timestamp=true
+```
+
+You can also go into the control center `localhost:9021` to check the topics and its events can be consumed from there.
 
 
 
