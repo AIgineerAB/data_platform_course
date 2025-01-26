@@ -1,8 +1,18 @@
 # Kafka producer and consumer
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+**part 1 - theory about producer and consumer**
+
+<a href="https://youtu.be/u5hU0KTvNnc" target="_blank">
+<img src="https://github.com/kokchun/assets/blob/main/data_platform/producer_consumer_theory.png?raw=true" alt="kafka producer consumer" width="600">
 </a>
+
+**part 2 - coding producer and consumer**
+
+<a href="" target="_blank">
+<img src="https://github.com/kokchun/assets/blob/main/data_platform/producer_consumer.png?raw=true" alt="kafka producer consumer" width="600">
+</a>
+
+
 
 
 

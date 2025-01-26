@@ -1,5 +1,13 @@
 # Kafka setup
 
+**part 1 - what is apache kafka?**
+
+<a href="https://youtu.be/Y5IxtZ5EARg" target="_blank">
+<img src="https://github.com/kokchun/assets/blob/main/data_platform/kafka_intro.png?raw=true" alt="what is kafka?" width="600">
+</a>
+
+**part 2 - setting up apache kafka with docker compose**
+
 <a href="https://youtu.be/pqRebLFbmwI" target="_blank">
 <img src="https://github.com/kokchun/assets/blob/main/data_platform/setup_kafka.png?raw=true" alt="set up kafka" width="600">
 </a>
