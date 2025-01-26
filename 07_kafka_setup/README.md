@@ -47,8 +47,10 @@ kafka-consumer-groups --list --bootstrap-server localhost:9092
 ```
 
 ## Other videos 📹
-
+- [What is apache kafka - The ASF (2024)](https://www.youtube.com/watch?v=vHbvbwSEYGo)
 
 
 ## Read more 👓
+- [Kafka introduction - apache kafka docs](https://kafka.apache.org/intro)
+- 
 
