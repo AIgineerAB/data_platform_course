@@ -5,10 +5,10 @@ import json
 # consumer group allows parallel processing
 app = Application(broker_address="localhost:9092", consumer_group="text-splitter-v1")
 
-# topic with chat messages in json format
+# topic with jokes in json format
 jokes_topic = app.topic(name="jokes", value_serializer="json")
 
-jokes_path = Path(__file__).parent / "jokes.json"
+jokes_path = Path(__file__).parents[1] / "data" / "jokes.json"
 
 with open(jokes_path, "r", encoding="utf-8") as file:
     jokes = json.load(file)
