@@ -8,7 +8,7 @@
 
 **part 2 - coding producer and consumer**
 
-<a href="" target="_blank">
+<a href="https://youtu.be/cPO_NjMBecc" target="_blank">
 <img src="https://github.com/kokchun/assets/blob/main/data_platform/producer_consumer.png?raw=true" alt="kafka producer consumer" width="600">
 </a>
 
