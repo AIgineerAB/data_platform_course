@@ -34,8 +34,11 @@ Total price: 830.96
 
 Now do similar outputs as in exercise 1 but using a producer to produce the data to a topic in Kafka and then consuming the data. In the consumer, you will process the data to print out similar to above. 
 
+## 3. Explore quixstreams docs
 
-## 3. Theory questions
+Go into quixstreams and go through the [purchase filtering](https://quix.io/docs/quix-streams/tutorials/purchase-filtering/tutorial.html#5-check-out-the-results) example and the [word count example](https://quix.io/docs/quix-streams/tutorials/word-count/tutorial.html). It is good practice to try refactor the code yourself to make sure you understand it   
+
+## 4. Theory questions
 
 &nbsp; a) What is Apache Kafka, and how does it work?
 
