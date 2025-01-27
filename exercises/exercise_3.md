@@ -36,7 +36,7 @@ Now do similar outputs as in exercise 1 but using a producer to produce the data
 
 ## 3. Explore quixstreams docs
 
-Go into quixstreams and go through the [purchase filtering](https://quix.io/docs/quix-streams/tutorials/purchase-filtering/tutorial.html#5-check-out-the-results) example and the [word count example](https://quix.io/docs/quix-streams/tutorials/word-count/tutorial.html). It is good practice to try refactor the code yourself to make sure you understand it   
+Go into quixstreams and go through the [purchase filtering](https://quix.io/docs/quix-streams/tutorials/purchase-filtering/tutorial.html#5-check-out-the-results) example and the [word count example](https://quix.io/docs/quix-streams/tutorials/word-count/tutorial.html). It is good practice to try refactor the code yourself to make sure you understand it. Note that you don't need to understand every detail of the code as it might be somewhat complicated, see this as an exercise to read and understand code. 
 
 ## 4. Theory questions
 

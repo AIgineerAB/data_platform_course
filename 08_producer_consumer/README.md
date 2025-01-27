@@ -45,3 +45,4 @@ You can also go into the control center `localhost:9021` to check the topics and
 - [kafka topics - conduktor kafkacademy](https://learn.conduktor.io/kafka/kafka-topics/)
 - [kafka producers - conduktor kafkacademy](https://learn.conduktor.io/kafka/kafka-producers/)
 - [kafka consumers - conduktor kafkacademy](https://learn.conduktor.io/kafka/kafka-consumers/)
+- [Sources - quix docs](https://quix.io/docs/quix-streams/connectors/sources/index.html#standalone-sources)
