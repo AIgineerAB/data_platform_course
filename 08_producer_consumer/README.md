@@ -39,6 +39,8 @@ You can also go into the control center `localhost:9021` to check the topics and
 
 ## Other videos 📹
 
+- [streaming dataframe - QuixStreams [2024]](https://www.youtube.com/watch?v=NSDChuaHK0k)
+
 ## Read more 👓
 
 - [kafka fundamentals - conduktor kafkacademy](https://learn.conduktor.io/kafka/kafka-fundamentals/)
