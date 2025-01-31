@@ -29,6 +29,12 @@ psql -U your_username -d your_database
 > [!NOTE]
 > The password is not required when connecting to postgres locally i.e. inside of the container. When connecting from the host machine directly it will require a password. This is the default settings of postgres.
 
+
+## Data
+
+We will take [data from Myndigheten för yrkeshögskola](https://www.myh.se/yrkeshogskolan/resultat-ansokningsomgangar/resultat-for-program) and read it in pandas, then save it to our postgres database.
+
+
 ## Reference on postgres commands
 
 This is not a complete list, but some that might be useful for reference.
