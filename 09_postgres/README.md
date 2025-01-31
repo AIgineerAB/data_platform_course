@@ -35,15 +35,16 @@ This is not a complete list, but some that might be useful for reference.
 
 ### Useful psql commands
 
-| Command            | Description                                               |
-| ------------------ | --------------------------------------------------------- |
-| `\l`               | List all databases                                        |
-| `\c database_name` | Connect to a specific database                            |
-| `\dt`              | List all tables in the current database                   |
-| `\d table_name`    | Show table structure (columns, types, constraints)        |
-| `\du`              | List all users and roles                                  |
-| `\conninfo`        | Show current connection info (user, database, host, port) |
-| `\q`               | Quit `psql`                                               |
+| Command                   | Description                                               |
+| ------------------------- | --------------------------------------------------------- |
+| `\l`                      | List all databases                                        |
+| `\i <path_to_sql_script>` | To read a an SQL file                                     |
+| `\c database_name`        | Connect to a specific database                            |
+| `\dt`                     | List all tables in the current database                   |
+| `\d table_name`           | Show table structure (columns, types, constraints)        |
+| `\du`                     | List all users and roles                                  |
+| `\conninfo`               | Show current connection info (user, database, host, port) |
+| `\q`                      | Quit `psql`                                               |
 
 ### Table management (DDL)
 
