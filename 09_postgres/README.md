@@ -1,7 +1,7 @@
 # Postgres SQL
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/fo_C6MSmtkQ" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_platform/postgres.png?raw=true" alt="postgres" width="600">
 </a>
 
 ## Connect to postgres
