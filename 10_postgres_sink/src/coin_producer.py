@@ -40,15 +40,16 @@ def main():
 
     with app.get_producer() as producer:
         while True:
-            latest_quotes = get_latest_coin_data()["quote"]
-            bitcoin_latest = latest_quotes("BTC")
+            coin_latest = get_latest_coin_data("BTC")
+            # pprint(latest_quotes)
+            # coin_latest = latest_quotes["quote"]
 
             kafka_message = coins_topic.serialize(
-                key=bitcoin_latest["symbol"], value=bitcoin_latest
+                key=coin_latest["symbol"], value=coin_latest
             )
 
             print(
-                f"produce event with key = {kafka_message.key}, value = {bitcoin_latest['quote']['USD']['price']}"
+                f"produce event with key = {kafka_message.key}, value = {coin_latest['quote']['USD']['price']}"
             )
             producer.produce(
                 topic=coins_topic.name, key=kafka_message.key, value=kafka_message.value
@@ -59,4 +60,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    pprint(get_latest_coin_data("ETH")["quote"])
+    pprint(get_latest_coin_data("BTC")["quote"])
