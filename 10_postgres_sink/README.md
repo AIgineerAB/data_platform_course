@@ -13,4 +13,10 @@ In this lecture we'll build a pipeline that ends up persisting data into postgre
 - schema-registry
 - control-center
 
+
+> [!IMPORTANT]
+> add kafka_data to your .gitignore as we bind mount this folder into kafka broker, in order to persist data in the topics.
+
+
+
 TODO: pipeline picture
