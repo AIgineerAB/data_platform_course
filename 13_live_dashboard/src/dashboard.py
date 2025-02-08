@@ -10,7 +10,7 @@ from constants import (
     POSTGRES_PORT,
 )
 
-from charts import line_chart
+from charts import line_chart_px, line_chart
 
 
 connection_string = f"postgresql+psycopg2://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DBNAME}"
@@ -36,15 +36,14 @@ def layout():
     )
     st.markdown("# Bitcoin data")
     st.markdown("## Latest data")
+    
     st.dataframe(df.tail())
-
+    
     st.markdown("## Bitcoin latest price in USD")
-    # st.line_chart(data=df, y="price_usd")
 
     price_chart = line_chart(x=df.index, y=df["price_usd"], title="price USD")
 
     st.pyplot(price_chart, bbox_inches="tight")
-
 
 if __name__ == "__main__":
     layout()
