@@ -13,7 +13,7 @@ In this lecture we'll build a pipeline that ends up persisting data into postgre
 
 
 > [!IMPORTANT]
-> add kafka_data to your .gitignore as we bind mount this folder into kafka broker, in order to persist data in the topics.
+> add kafka_data and state to your .gitignore as we bind mount this folder into kafka broker, in order to persist data in the topics.
 
 
 

@@ -1,6 +1,6 @@
-# Live dashboard
+# Serving a live dashboard
 
-<a href="" target="_blank">
+<a href="https://youtu.be/Hf1ryX3dryg" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_platform/live_dashboard.png?raw=true" alt="full pipeline" width="600">
 </a>
 
@@ -8,7 +8,7 @@ In this lecture we'll build a pipeline that ends up with serving a live dashboar
 
 
 > [!IMPORTANT]
-> add kafka_data to your .gitignore as we bind mount this folder into kafka broker, in order to persist data in the topics.
+> add kafka_data and state to your .gitignore as we bind mount this folder into kafka broker, in order to persist data in the topics.
 
 
 
